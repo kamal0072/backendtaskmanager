@@ -58,7 +58,7 @@ MIDDLEWARE = [
 # ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://your-frontend.netlify.app",
+    "https://mvervetaskmanager.netlify.app",
 ]
 
 ROOT_URLCONF = 'TaskMansger.urls'
