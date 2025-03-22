@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-34k2)fa-wwi(^*v3vi0rwr-)*xo2+5v@-pgw@s%!cy)q2tqa_)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -81,7 +81,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'TaskMansger.wsgi.application'
 
-
+# TaskMansger.wsgi.application
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
