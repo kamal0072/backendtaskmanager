@@ -53,13 +53,13 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # React frontend URL
-]
-
 # CORS_ALLOWED_ORIGINS = [
-#     "https://mvervetaskmanager.netlify.app",
+#     "http://localhost:5173",  # React frontend URL
 # ]
+
+CORS_ALLOWED_ORIGINS = [
+    "https://mvervetaskmanager.netlify.app",
+]
 
 ROOT_URLCONF = 'TaskMansger.urls'
 
